@@ -23,7 +23,7 @@ Built and deployed a comprehensive full-stack inventory management dashboard app
 
 • State Management: Implemented state management using Redux Toolkit, enhancing data flow and state consistency across the application.
 
-• Backend Development: Created a scalable back end with Node.js and Express.js, using Prisma ORM for efficient database interactions with PostgreSQL.
+• Backend Development: Created a scalable back end with Node.js and Express.js, using Prisma for efficient database interactions with PostgreSQL.
 
 ## Notable Achievements
 • Successfully integrated multiple AWS services for deployment, ensuring scalability and high availability of the application.
