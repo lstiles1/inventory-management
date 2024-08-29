@@ -12,7 +12,6 @@ Built and deployed a comprehensive full-stack inventory management dashboard app
 
 • Deployment and Hosting: AWS EC2, RDS, Amplify, S3
 
-
 ## Features
 • Feature-Rich Dashboard: Developed features such as product management, inventory tracking, sales summary, user management, and various customizable widgets.
 
