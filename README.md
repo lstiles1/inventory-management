@@ -10,7 +10,7 @@ Built and deployed a comprehensive full-stack inventory management dashboard app
 
 • Back-End: Node.js, Express.js, Prisma, PostgreSQL
 
-• Deployment and Hosting: AWS EC2, RDS, Amplify, S3
+• Cloud Hosting: AWS EC2, RDS, Amplify, S3
 
 ## Features
 • Feature-Rich Dashboard: Developed features such as product management, inventory tracking, sales summary, user management, and various customizable widgets.
@@ -25,9 +25,3 @@ Built and deployed a comprehensive full-stack inventory management dashboard app
 
 • Backend Development: Created a scalable back end with Node.js and Express.js, using Prisma for efficient database interactions with PostgreSQL.
 
-## Notable Achievements
-• Successfully integrated multiple AWS services for deployment, ensuring scalability and high availability of the application.
-
-• Streamlined data handling and user interactions through advanced state management techniques and real-time data fetching with Redux Toolkit Query.
-
-• Enhanced user experience by implementing a responsive design with comprehensive filtering options and a user-friendly interface.
