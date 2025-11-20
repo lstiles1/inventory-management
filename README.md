@@ -1,5 +1,5 @@
 ## Stocked: Inventory Management Dashboard
-https://main.d1s8h38tag6x10.amplifyapp.com/
+https://stocked-inventory.vercel.app
 
 ## Project Overview
 Built and deployed a comprehensive full-stack inventory management dashboard application using Next.js for the front end and Node.js for the back end. The application is fully deployed on AWS and features complex data handling, robust API integration, and responsive design optimized for all devices.
