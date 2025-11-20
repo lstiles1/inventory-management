@@ -82,7 +82,7 @@ const Sidebar = () => {
         }`}
       >
         <Image
-          src="https://s3-inventorymanagement-img.s3.us-west-1.amazonaws.com/logo.png"
+          src="/icon.ico"
           alt="logo"
           width={27}
           height={27}
@@ -146,7 +146,7 @@ const Sidebar = () => {
 
       {/* FOOTER */}
       <div className={`${isSidebarCollapsed ? "hidden" : "block"} mb-10`}>
-        <p className="text-center text-xs text-gray-500">&copy; 2024 Stocked</p>
+        <p className="text-center text-xs text-gray-500">&copy; 2025 Stocked</p>
       </div>
     </div>
   );

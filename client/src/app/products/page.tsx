@@ -7,6 +7,11 @@ import Header from "@/app/(components)/Header";
 import Rating from "@/app/(components)/Rating";
 import CreateProductModal from "./CreateProductModal";
 import Image from "next/image";
+import productImage1 from "@/assets/product1.png";
+import productImage2 from "@/assets/product2.png";
+import productImage3 from "@/assets/product3.png";
+
+const productImages = [productImage1, productImage2, productImage3];
 
 type ProductFormData = {
   name: string;
@@ -80,15 +85,21 @@ const Products = () => {
               className="border shadow rounded-md p-4 max-w-full w-full mx-auto"
             >
               <div className="flex flex-col items-center">
-                <Image
-                  src={`https://s3-inventorymanagement-img.s3.us-west-1.amazonaws.com/product${
-                    Math.floor(Math.random() * 3) + 1
-                  }.png`}
-                  alt={product.name}
-                  width={150}
-                  height={150}
-                  className="mb-3 rounded-2xl w-36 h-36"
-                />
+                {(() => {
+                  const randomImage =
+                    productImages[
+                      Math.floor(Math.random() * productImages.length)
+                    ];
+                  return (
+                    <Image
+                      src={randomImage}
+                      alt={product.name}
+                      width={150}
+                      height={150}
+                      className="mb-3 rounded-2xl w-36 h-36"
+                    />
+                  );
+                })()}
                 <h3 className="text-lg text-gray-900 font-semibold">
                   {product.name}
                 </h3>
